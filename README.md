@@ -26,6 +26,8 @@
 It will send the budget amount along with the expenses to slack channel
 
 
+-----------------------------------------------------------------------------------------------------------------------------
+
 ## Stack's usadas
 -   Google Cloud Billing
 -   Google Cloud Pub/Sub
