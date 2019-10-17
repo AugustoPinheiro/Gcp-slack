@@ -45,8 +45,8 @@ It will send the budget amount along with the expenses to slack channel
 - Selecione Runtime Nodejs
 - Cole o conteúdo `index.js` e` package.json` na respectiva área de texto
 - Digite a function  correspondente para executar
-- Expanda `More` e forneça a variável de ambiente` SLACK_WEBHOOK_URL`, que é uma URL de webhook de entrada frouxa
-- Crie a função
+- Expanda `More` e forneça a variável de ambiente` SLACK_WEBHOOK_URL`, que é uma URL de webhook de entrada
+- Crie a function
 
 ### Despesas
 - Crie um orçamento em [Orçamentos e alertas] (https://console.cloud.google.com/billing) do Google Cloud Console
