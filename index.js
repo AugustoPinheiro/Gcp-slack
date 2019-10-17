@@ -8,7 +8,7 @@ const eventToBilling = (data) => {
 
 const createSlackMessage = (pubsubMessage) => {
   let message = {
-    text: `Budget Amount: ${pubsubMessage.budgetAmount}, CostAmount: ${pubsubMessage.costAmount}, Budget: ${pubsubMessage.budgetDisplayName}`,
+    text: `Montante do orçamento: ${pubsubMessage.budgetAmount}, Valor do custo: ${pubsubMessage.costAmount}, Orçamento: ${pubsubMessage.budgetDisplayName}`,
     mrkdwn: true,
   };
   return message;
@@ -19,10 +19,11 @@ module.exports.subscribe = (event, callback) => {
 const pubsubMessage = eventToBilling(event.data);
 
 // Send message to Slack.
+// Enviar mensagem para o Slack
   const message = createSlackMessage(pubsubMessage);
   webhook.send(message, (err, res) => {
     if (err){
-      console.log("Cannot send message to slack!");
+      console.log("Não conseguimos enviar mensagem no Slack!");
     }
     callback(err);
   });
