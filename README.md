@@ -15,7 +15,7 @@
 -   Select Inline editor for now
 -   Select Runtime Nodejs
 -   Paste the `index.js` and `package.json` content on respective text area
--   Enter the corresponding function to execute
+-   Enter the corresponding function to execute: subscribe
 -   Expand `More` and give `SLACK_WEBHOOK_URL` environment variable which is slack incoming webhook url
 -   Create the function
 
@@ -44,7 +44,7 @@ It will send the budget amount along with the expenses to slack channel
 - Selecione Inline editor por enquanto
 - Selecione Runtime Nodejs
 - Cole o conteúdo `index.js` e` package.json` na respectiva área de texto
-- Digite a function  correspondente para executar
+- Digite a function  correspondente para executar: subscribe
 - Expanda `More` e forneça a variável de ambiente` SLACK_WEBHOOK_URL`, que é uma URL de webhook de entrada
 - Crie a function
 
