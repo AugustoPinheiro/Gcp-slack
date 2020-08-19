@@ -56,7 +56,7 @@ excludes people in socially marginalized groups.
 Private harassment is also unacceptable. No matter who you are, if you feel
 you have been or are being harassed or made uncomfortable by a community
 member, please contact one of the channel ops or any of the
-[CONTRIBUTING.md](https://github.com/jden/CONTRIBUTING.md) core team
+[CONTRIBUTING.md](https://github.com/AugustoPinheiro/Gcp-slack/CONTRIBUTING.md) core team
 immediately. Whether you're a regular contributor or a newcomer, we care about
 making this community a safe place for you and we've got your back.
 
