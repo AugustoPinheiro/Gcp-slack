@@ -50,6 +50,6 @@ It will send the budget amount along with the expenses to slack channel
 
 ### Despesas
 - Crie um orçamento em [Orçamentos e alertas] (https://console.cloud.google.com/billing) do Google Cloud Console
-- Na parte inferior de `Gerenciar notificações ', conecte-se ao tópico Pub / Sub criado acima e pronto
+- Na parte inferior de `Gerenciar notificações`, conecte-se ao tópico Pub / Sub criado acima e pronto
 
 Ele enviará o valor do orçamento, juntamente com as despesas, para canalizar
