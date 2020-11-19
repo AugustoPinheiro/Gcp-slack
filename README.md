@@ -36,7 +36,7 @@ It will send the budget amount along with the expenses to slack channel
 
 ## Passos
 
-### Funções da nuvem
+### Cloud Functions
 - Acesse [Google Cloud Functions] (https://console.cloud.google.com/functions/add)
 - Dê um nome e especificações mínimas
 - Selecione Trigger como Pub/Sub
